@@ -5,3 +5,11 @@ repos:
     -   id: trailing-whitespace
     -   id: check-yaml
     -   id: check-added-large-files
+-   repo: local
+    hooks:
+    -   id: pytest-check
+        name: pytest Runner
+        entry: pytest  # specify the entry command here the problem that i run to it is the entry pytest to mention that you need to run the pytest
+        language: system
+        pass_filenames: false
+        always_run: true
