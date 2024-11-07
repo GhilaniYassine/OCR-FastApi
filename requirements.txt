@@ -6,4 +6,3 @@
  requests
  httpx
  pre-commit
- numpy
